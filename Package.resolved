@@ -12,7 +12,7 @@
       },
       {
         "package": "Arrow",
-        "repositoryURL": "https://github.com/freshOS/Arrow",
+        "repositoryURL": "https://github.com/cuatrotresdosuno/Arrow",
         "state": {
           "branch": null,
           "revision": "ede0996c0b8f32a67bba80ae384f0898e9a8cb95",
@@ -21,7 +21,7 @@
       },
       {
         "package": "Then",
-        "repositoryURL": "https://github.com/freshOS/Then",
+        "repositoryURL": "https://github.com/cuatrotresdosuno/Then",
         "state": {
           "branch": null,
           "revision": "7b20f33ca37c6ecc9420c4b699b641dbca504912",
