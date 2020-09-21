@@ -7,9 +7,9 @@ let package = Package(
     platforms: [.iOS(.v10)],
     products: [.library(name: "ws", targets: ["ws"])],
     dependencies: [
-        .package(url: "https://github.com/cuatrotresdosuno/Arrow", .exact("5.1.3")),
-        .package(url: "https://github.com/cuatrotresdosuno/Then", .exact("5.1.4")),
-        .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.1.0"))
+        .package(url: "https://github.com/cuatrotresdosuno/Arrow", .exact("5.1.2")),
+        .package(url: "https://github.com/cuatrotresdosuno/Then", .exact("5.1.3")),
+        .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.0.0"))
     ],
     targets: [
         .target(name: "ws", dependencies:["Arrow", "Then", "Alamofire"]),
