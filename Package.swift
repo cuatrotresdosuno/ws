@@ -9,7 +9,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/cuatrotresdosuno/Arrow", .exact("5.1.2")),
         .package(url: "https://github.com/cuatrotresdosuno/Then", .exact("5.1.3")),
-        .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.0.0"))
+        .package(url: "https://github.com/Alamofire/Alamofire", .exact("4.9.1"))
     ],
     targets: [
         .target(name: "ws", dependencies:["Arrow", "Then", "Alamofire"]),
